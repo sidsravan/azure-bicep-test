@@ -1,10 +1,10 @@
 targetScope = 'subscription'
 
 @description('Resource group name')
-param rgName string
+param rgName string = "sample-rg"
 
 @description('Resource group location (e.g., centralindia, eastus, westeurope)')
-param rgLocation string
+param rgLocation string = "eastus"
 
 @description('Optional tags for the resource group')
 param tags object = {}
